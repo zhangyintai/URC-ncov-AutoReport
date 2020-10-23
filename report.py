@@ -9,6 +9,7 @@ import sys
 import argparse
 from bs4 import BeautifulSoup
 
+
 class Report(object):
     def __init__(self, stuid, password, data_path):
         self.stuid = stuid
